@@ -4,7 +4,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // newest leaf catches the morning sun and leans in a little closer,
 // and the keeper mistakes the plant's quiet plan for luck.
 const FORTUNE =
-  "Your newest leaf will catch the morning sun and lean in closer — your keeper will call it luck, but you know better.";
+  "Your newest leaf will catch the morning sun and lean in closer — your keeper will call it luck, but you planned it.";
 
 const chars = [...FORTUNE].length;
 if (chars < 1 || chars > 120 || FORTUNE.trim().length === 0) {
