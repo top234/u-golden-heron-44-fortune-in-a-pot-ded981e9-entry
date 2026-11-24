@@ -1,10 +1,10 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-// One kind, funny fortune for the houseplant on the windowsill: its
-// newest leaf catches the morning sun and leans in a little closer,
-// and the keeper mistakes the plant's quiet plan for luck.
+// One kind, funny fortune for the houseplant on the windowsill: the
+// sun saves its warmest patch just for it, and one day the keeper
+// thanks the window — and means the plant.
 const FORTUNE =
-  "Your newest leaf will catch the morning sun and lean in closer — your keeper will call it luck, but you planned it.";
+  "The sun will save its warmest patch just for you, and one day your keeper will thank the window — and mean you.";
 
 const chars = [...FORTUNE].length;
 if (chars < 1 || chars > 120 || FORTUNE.trim().length === 0) {
